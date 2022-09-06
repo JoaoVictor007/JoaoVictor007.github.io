@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");
+
+body {
+  background: rgb(95, 2, 43);
+  background: radial-gradient(
+    circle,
+    rgba(95, 2, 43, 1) 0%,
+    rgba(1, 19, 41, 1) 100%
+  );
+  margin: 0;
+}
+
+#sonic {
+  color: violet;
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+footer {
+  display: flex;
+
+  background-color: pink;
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5vh;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  box-shadow: 7px 7px 7px pink;
+  margin: 2vh;
+  border-radius: 40px;
+}
+
+#blue {
+  border-radius: 50%;
+}
+h1 {
+  font-family: "Luckiest Guy", sans-serif;
+  font-size: 60px;
+}
+a {
+  background-color: rgb(85, 57, 61);
+  text-decoration: none;
+  color: white;
+  width: 30%;
+  padding: 3vh;
+  border-radius: 10px;
+  text-align: center;
+  margin: 1vh;
+}
+.Laranjinha {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-top: 5%;
+}
